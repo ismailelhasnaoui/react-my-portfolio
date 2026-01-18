@@ -1,0 +1,55 @@
+/* =========================
+   Navigation
+========================= */
+
+nav {
+  background: rgba(15, 23, 42, 0.75);
+  width: max-content;
+  padding: 0.8rem 1.8rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1.4rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+/* =========================
+   Nav Links
+========================= */
+nav a {
+  color: var(--color-light);
+  font-size: 1.2rem;
+  padding: 0.7rem;
+  border-radius: 50%;
+  display: flex;
+  transition: all 0.4s ease;
+}
+
+/* Hover */
+nav a:hover {
+  background: var(--color-primary);
+  color: #020617;
+  transform: translateY(-4px);
+}
+
+/* Active */
+nav a.active {
+  background: var(--color-primary);
+  color: #020617;
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media (max-width: 600px) {
+  nav {
+    padding: 0.7rem 1.4rem;
+    gap: 1rem;
+  }
+}

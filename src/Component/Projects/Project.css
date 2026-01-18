@@ -1,0 +1,270 @@
+/* =========================
+   Projects Section
+========================= */
+
+.projects {
+  padding: 6rem 0;
+  background: linear-gradient(180deg, #0f122e, #0b0d24);
+}
+
+/* =========================
+   Top Section
+========================= */
+
+.projects .top_section {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.projects .top_section h5 {
+  color: var(--color-light);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.projects .top_section h2 {
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+  color: #ffffff;
+}
+
+/* =========================
+   Projects Grid
+========================= */
+
+.Project_items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  margin: 2.5rem;
+}
+
+/* =========================
+   Project Card
+========================= */
+/* =========================
+   Projects Section
+========================= */
+
+.projects {
+  padding: 6rem 0;
+  background: linear-gradient(180deg, #0f122e, #0b0d24);
+}
+
+/* =========================
+   Top Section
+========================= */
+
+.projects .top_section {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.projects .top_section h5 {
+  color: var(--color-light);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.projects .top_section h2 {
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+  color: #ffffff;
+}
+
+/* =========================
+   Projects Grid
+========================= */
+
+.Project_items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  margin-top: 4rem;
+}
+
+/* =========================
+   Project Card
+========================= */
+
+.card-item {
+  background: linear-gradient(145deg, #2c3170, #24285a);
+  padding: 1.8rem;
+  border-radius: 2rem;
+  transition: all 0.45s ease;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-item:hover {
+  transform: translateY(-12px);
+}
+
+/* =========================
+   Image
+========================= */
+
+.card-item .img {
+  width: 100%;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.card-item .img img {
+  width: 100%;
+  display: block;
+  transition: transform 0.6s ease;
+}
+
+.card-item:hover .img img {
+  transform: scale(1.08);
+}
+
+/* =========================
+   Title
+========================= */
+
+.card-item h4 {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
+/* =========================
+   Buttons
+========================= */
+
+.btn-item {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.btn-item .btn {
+  flex: 1;
+  text-align: center;
+  padding: 0.6rem 0;
+  font-size: 0.85rem;
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media (max-width: 1024px) {
+  .projects .top_section h2 {
+    font-size: 2.2rem;
+  }
+
+  .Project_items {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    padding: 4rem 0;
+  }
+
+  .projects .top_section h2 {
+    font-size: 2rem;
+  }
+
+  .card-item {
+    padding: 1.5rem;
+  }
+}
+
+.card-item {
+  background: linear-gradient(145deg, #2c3170, #24285a);
+  padding: 1.8rem;
+  border-radius: 2rem;
+  transition: all 0.45s ease;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-item:hover {
+  transform: translateY(-12px);
+}
+
+/* =========================
+   Image
+========================= */
+
+.card-item .img {
+  width: 100%;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.card-item .img img {
+  width: 100%;
+  display: block;
+  transition: transform 0.6s ease;
+}
+
+.card-item:hover .img img {
+  transform: scale(1.08);
+}
+
+/* =========================
+   Title
+========================= */
+
+.card-item h4 {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
+/* =========================
+   Buttons
+========================= */
+
+.btn-item {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.btn-item .btn {
+  flex: 1;
+  text-align: center;
+  padding: 0.6rem 0;
+  font-size: 0.85rem;
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media (max-width: 1024px) {
+  .projects .top_section h2 {
+    font-size: 2.2rem;
+  }
+
+  .Project_items {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    padding: 4rem 0;
+  }
+
+  .projects .top_section h2 {
+    font-size: 2rem;
+  }
+
+  .card-item {
+    padding: 1.5rem;
+  }
+}
